@@ -4,7 +4,7 @@ import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import Home from './screens/Home.js';
 import Donate from './screens/Donate';
-import Shop from './screens/Shop/Shop';
+import volApply from './screens/volApply';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
         <Route path="/donate" >
           <Donate />
         </Route>
-        <Route path="/shop" >
-          <Shop />
+        <Route path="/volApply" >
+          <volApply />
         </Route>
       </Switch>
       <Footer />

@@ -12,6 +12,9 @@ export const Footer = () => {
           
           <Col size={12} sm={6}>
             <h2>STA</h2>
+            <p>Contact Us</p>
+            <p>savetheanimals@email.com</p>
+            <p>(+91)0000000000</p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -19,7 +22,7 @@ export const Footer = () => {
               <a href="https://instagram.com"><img src={instagram} alt="Icon" /></a>
               <a href="https://twitter.com"><img src={twitter} alt="Icon" /></a>
             </div>
-            <p>Made with love.</p>
+            <p>Join us on social media.</p>
           </Col>
         </Row>
       </Container>
