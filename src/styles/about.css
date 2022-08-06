@@ -1,17 +1,19 @@
-.about {
-    padding: 30px;
-    position: relative;
-    height: 60vh;
-    border: none;
-
-}
+  .about {
+      padding: 30px;
+      position: relative;
+      height: 60vh;
+      text-align: left;
+      border: none;
+  }
   .about h2 {
       font-size: 45px;
       font-weight: 700;
-      text-align: left;
-      color: #273B09;
 
+      color: #273B09;
   }
   .about p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
     line-height: 1.5em;
   }
+  
