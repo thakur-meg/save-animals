@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from "./components/Footer";
 import Home from './screens/Home.js';
 import Donate from './screens/Donate';
-import volApply from './screens/volApply';
+import VolApply from './screens/volApply';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Donate />
         </Route>
         <Route path="/volApply" >
-          <volApply />
+          <VolApply />
         </Route>
         <Route path="/Home" >
           <Home />

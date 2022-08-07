@@ -1,0 +1,22 @@
+    .volApply {
+        height: 50vh;
+        background-image: url("../assets/img/apply-bg.jpg");
+        min-height: 250px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .form h2 {
+        font-size: 45px;
+        letter-spacing: 0.5px;
+        line-height: 1.5em;
+        margin: 14px;
+        text-align: center;
+    }
+    .form-bx {
+        margin: 30px;
+    }
+
