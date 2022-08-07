@@ -7,3 +7,13 @@ Over a million species of animal and plant life are now threatened with dying ou
 
 The platform provides an ideal space to spread awareness about the topic while garnering volunteers from around the world. Website also serves as a medium for donation collection for the cause, which in turn can be used for the betterment of our environment.
 
+
+<h2>How we built it</h2>
+The site uses the HTML, CSS, React, Bootstrap, Express.
+
+<h2>Challenges we ran into</h2>
+The whole process has been a learning curve. I had to learn a few new stacks to integrate the features I wanted, while working on the time crunch. 
+
+
+<h2>What's next for Save The Animals</h2>
+The next motto of the Save The Animals is to include a merchandise shop in the next version, while including live nature boxes to make the audience more aware about the species around them.
