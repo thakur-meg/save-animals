@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import {
-  BrowserRouter as Router
+  BrowserRouter as Router, Link, Route, Switch 
 } from "react-router-dom";
 import '../styles/navbar.css';
-import { Link } from "react-router-dom";
+
 
 export const NavBar = () => {
 
@@ -48,9 +48,10 @@ export const NavBar = () => {
               <Nav.Link href="#connect" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Connect</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <Link to='/donate'>
+
+              <Nav.Link href="/donate">
                 <button className="vvd"><span>Donate</span></button>
-              </Link>
+              </Nav.Link>
             </span>
           </Navbar.Collapse>
         </Container>

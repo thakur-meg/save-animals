@@ -1,8 +1,8 @@
 .topbanner {
     margin-top: 0;
-    height: 50vh;
+    height: 60vh;
     padding: 200px;
-    background-image: url('../assets/img/landing-img.png');
+    background-image: url('../assets/img/shop-img.png');
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -10,4 +10,43 @@
     background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .topbanner .tagline {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    display: flex;
+    justify-content: center;
+  }
+  .donations h2 {
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    margin: 14px;
+    text-align: center;
+  }
+  .donation-bx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem;
+    text-align: center;
+  }
+  .donation-card {
+    border: 2px solid #58641D;
+  }
+  .donation-card .button:hover{
+    background-color: #58641D;
+    border: none;
+    color: #fff;
+  }
+  .donation-card .button {
+    background-color: transparent;
+    border: 1px solid #58641D;
+    color: #58641D;
   }

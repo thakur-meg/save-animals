@@ -26,12 +26,15 @@
         padding: 30px;
         flex: 1;
     }
-    .volunteer Button {
+    .volunteer .button:hover{
         background-color: #273B09;
         border: none;
+        color: #fff;
     }
-    .volunteer Button:hover {
-        background-color: #7B904B;
+    .volunteer .button {
+        background-color: transparent;
+        border: 1px solid #273B09;
+        color: #273B09;
     }
     .volunteer img {
         border-radius: 10px;
